@@ -1,0 +1,110 @@
+
+.body{
+  background-color: #eff7f7;
+
+}
+div li{
+  border: none;
+
+}
+.list-of-price{
+  text-align: center;
+  margin-top: 40px;
+}
+.list-of-price1{
+  font-size: 30px;
+  font-weight: bold;
+  }
+.list-of-price2{
+color :hsl(0, 0%, 65%);
+}
+.list-group-item-heading {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cat{
+  margin-right: 95px
+}
+
+div ul li {
+  margin-bottom: 5px;
+}
+.small{
+  margin-top: 10px;
+}
+.list-group{
+  width: 100%;
+}
+
+ul.list-group {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+
+}
+.body{
+ margin-top: 250px;
+}
+
+.icon{
+  margin-left: -12px;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 345px) {
+  .footer {
+    position: fixed;
+  }
+}
+
+fa {
+  color: blue;
+  left: 0;
+  bottom: 0;
+}
+#fa-lg{
+  color: hsl(0, 0%, 65%);
+}
+
+.fa-left fa {
+  float: left;
+  width: 20%;
+  position: relative;
+  margin-top: 34px;
+}
+
+.fa-right fa {
+  float: right;
+  width: 20%;
+  position: relative;
+  margin-top: 34px;
+
+}
+
+.add {
+  border: none;
+  background-image: linear-gradient(#3a3f86,#2895f5 );  border-radius: 50%;
+  margin: 12px;
+  width: 45px;
+  height: 41px;
+}
+
+
+.fa-plus {
+  color: white;
+}
+
+.badge {
+  border-radius: 10%;
+  font-size: 18px;
+  background-color: #e9f4fc;
+  color: #79a0d9;
+}

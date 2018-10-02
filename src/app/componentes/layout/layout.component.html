@@ -1,0 +1,50 @@
+<div class= "container">
+  
+
+  <div class="list-of-price">       
+      
+     <div class="list-of-price1">{{236141 |currency :''}}</div>
+     <div class="list-of-price2">Total expenses</div>  
+    
+  </div>
+  <div >
+
+
+  </div>
+
+<!-- <app-categorylist> 
+  </app-categorylist>-->
+  <div class="body">
+  <ul class="list-group" *ngFor="let cat of category">
+      
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+          
+<fa class="icon fa-2x" name={{cat.icon}}></fa>
+  <span class="cat">
+        <h4 class="list-group-item-heading">{{cat.Name}}</h4>
+   <small>{{.14|percent}}</small>  <small ><!--{{}}-->{{cat.Details}}</small>
+    </span>
+          
+        <span class="badge badge-primary badge-pill">{{cat.Price|currency}}</span>
+  
+      </li>
+  
+    </ul>
+  </div>
+    <!-- <fa name="cog" animation="spin"></fa> -->
+
+    <div class="footer">
+     <span class="fa-left">
+        <fa name="tasks fa-lg" ></fa>
+       
+        <fa name="adjust fa-lg" id="fa-lg" ></fa>
+       </span>
+       <button class="add" routerLink="/add" >
+        <fa class="fa fa-plus" name="plus-" ></fa></button>
+       
+        <span class="fa-right ">
+        <fa name="cog fa-lg nav" id="fa-lg"></fa>
+        <fa name="th-large fa-lg" id="fa-lg"></fa>
+        </span>
+      </div>
+    </div>

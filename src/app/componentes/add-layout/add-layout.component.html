@@ -1,0 +1,27 @@
+<div class="header">
+  <div class="title">Category </div>
+  <div>
+    <fa name="times" class="x"[routerLink]="['']"></fa>
+  </div>
+</div>
+
+<div>
+  <span class="list-group" *ngFor="let cat of category">
+
+    <span>
+      <button (click)="addExpenses(cat)" type="button" class="btn btn-default btn-circle btn-xl">
+        <fa name="{{cat.icon}}"></fa>
+      </button>
+
+    </span>
+  </span>
+  <span *ngFor="let cat of category">
+    <span class="list-group-item-heading">{{cat.Name}}</span>
+
+  </span>
+</div>
+<input class="col-4" placeholder="amount here">
+
+<div class="footer">
+  <button  (click)="add(amount)">Add Expense </button>
+</div>
